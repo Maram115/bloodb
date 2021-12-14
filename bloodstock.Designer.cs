@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -49,9 +49,9 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
@@ -110,18 +110,6 @@
             this.panel2.Size = new System.Drawing.Size(1254, 50);
             this.panel2.TabIndex = 4;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(308, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(524, 36);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Blood Bank Managment System";
-            // 
             // pictureBox7
             // 
             this.pictureBox7.Image = global::bloodb.Properties.Resources.icon1;
@@ -151,6 +139,18 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(308, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(524, 36);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Blood Bank Managment System";
             // 
             // panel1
             // 
@@ -326,18 +326,6 @@
             this.panel8.Size = new System.Drawing.Size(191, 115);
             this.panel8.TabIndex = 7;
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Crimson;
-            this.label6.Location = new System.Drawing.Point(10, 37);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 46);
-            this.label6.TabIndex = 8;
-            this.label6.Text = "A+";
-            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -360,6 +348,18 @@
             this.label11.Size = new System.Drawing.Size(55, 37);
             this.label11.TabIndex = 9;
             this.label11.Text = "20";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
+            this.label6.Font = new System.Drawing.Font("Arial Rounded MT Bold", 20F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Crimson;
+            this.label6.Location = new System.Drawing.Point(10, 37);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(72, 46);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "A+";
             // 
             // panel11
             // 
@@ -393,7 +393,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(55, 37);
             this.label13.TabIndex = 9;
-            this.label13.Text = "20";
+            this.label13.Text = "90";
             // 
             // label14
             // 
