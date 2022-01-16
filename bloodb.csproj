@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -46,11 +47,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.Designer.cs">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </Compile>
     <Compile Include="bloodstock.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="bloodstock.Designer.cs">
       <DependentUpon>bloodstock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="donate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="donate.Designer.cs">
+      <DependentUpon>donate.cs</DependentUpon>
     </Compile>
     <Compile Include="donor.cs">
       <SubType>Form</SubType>
@@ -58,23 +71,29 @@
     <Compile Include="donor.Designer.cs">
       <DependentUpon>donor.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
+    <Compile Include="Employee.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
     </Compile>
     <Compile Include="viewpatient.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="viewpatient.Designer.cs">
       <DependentUpon>viewpatient.cs</DependentUpon>
-    </Compile>
-    <Compile Include="main.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="main.designer.cs">
-      <DependentUpon>main.cs</DependentUpon>
     </Compile>
     <Compile Include="patient.cs">
       <SubType>Form</SubType>
@@ -90,20 +109,29 @@
     <Compile Include="viewdonor.Designer.cs">
       <DependentUpon>viewdonor.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminLogin.resx">
+      <DependentUpon>AdminLogin.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="bloodstock.resx">
       <DependentUpon>bloodstock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="donate.resx">
+      <DependentUpon>donate.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="donor.resx">
       <DependentUpon>donor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="viewpatient.resx">
-      <DependentUpon>viewpatient.cs</DependentUpon>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="main.resx">
       <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="viewpatient.resx">
+      <DependentUpon>viewpatient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="patient.resx">
       <DependentUpon>patient.cs</DependentUpon>
@@ -145,6 +173,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icon1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood-donation %288%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood-cells.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blood-donation %2810%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\donator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospitalisation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-staff-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
