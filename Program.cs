@@ -16,7 +16,7 @@ namespace bloodb
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(mainForm: new Form1());
+            Application.Run( new login());
         }
     }
 
